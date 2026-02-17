@@ -1,69 +1,132 @@
 
+# 🧑‍💼 Worker Management System (Frontend)
 
-## Worker Tracker – Frontend
-
-A modern workforce management dashboard that allows contractors or site managers to track worker attendance, assign work locations, and automatically calculate wages.
-
-This project focuses on real-world usage — not just UI — including analytics, export reports, and interactive management tools.
+A modern workforce tracking dashboard built using **React + Tailwind CSS** that helps manage workers, site assignments, wages, and analytics in a clean and interactive interface.
 
 ---
 
-### 🚀 Features
+## 🎥 Live Demo
 
-* Add, edit and delete workers
-* Assign daily work sites
-* Automatic wage calculation
-* Worker statistics dashboard
-* Site-wise wage breakdown
+
+https://github.com/user-attachments/assets/bb5ba1ae-b0ee-40b1-a9a3-932c148a5108
+
+
+
+
+---
+
+## 🚀 Features
+
+### 👷 Worker Management
+
+* Add new workers
+* Edit daily wage
+* Delete workers
 * Search workers instantly
-* Export Excel & CSV reports
-* Interactive charts
-* Fully responsive layout
+
+### 📅 Weekly Site Assignment
+
+* Assign site for each day
+* Edit site per worker
+* Reset all site allocations
+
+### 💰 Wage Calculation
+
+* Automatic wage calculation
+* Days worked tracking
+* Total payout summary
+
+### 📊 Analytics Dashboard
+
+* Bar chart worker statistics
+* Active site counter
+* Total workers counter
+* Total wage summary
+
+### 📁 Export Reports
+
+* Export Excel report (.xlsx)
+* Export wage summary (.csv)
+
+### 📱 Responsive UI
+
+* Desktop table layout
+* Mobile card layout
+* Smooth modals & animations
 
 ---
 
-### 🛠 Tech Stack
+## 🛠 Tech Stack
 
-* React.js (Vite)
-* TailwindCSS
-* Recharts (Analytics)
-* XLSX + FileSaver (Export Reports)
-* REST API Integration
-
----
-
-### 📊 Dashboard Capabilities
-
-* Weekly attendance tracking
-* Total wage calculation
-* Site-wise payment breakdown
-* Worker performance analytics
+* React (Vite)
+* Tailwind CSS
+* Recharts
+* XLSX
+* File Saver
+* Lucide React Icons
 
 ---
 
-### 🔗 API
+## 📦 Installation
 
-Backend runs separately.
-Update API base URL inside:
+Clone the repository
 
 ```
-const apiBase = "YOUR API";
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+cd YOUR_REPO_NAME
 ```
 
----
-
-### 📦 Installation
+Install dependencies
 
 ```
 npm install
+```
+
+Run development server
+
+```
 npm run dev
 ```
 
 ---
 
-### 💡 Purpose
+## 🔌 API Setup
 
-Designed for real construction/site management workflow where supervisors need a fast way to calculate payments and maintain worker records.
+Open:
+
+```
+src/components/WorkerTable.jsx
+```
+
+Change:
+
+```
+const apiBase = "YOUR API";
+```
+
+Example:
+
+```
+const apiBase = "http://localhost:3000";
+```
 
 ---
+
+## 📊 Project Purpose
+
+This project helps contractors or site supervisors manage workers attendance and payments digitally instead of using notebooks or spreadsheets.
+
+---
+
+## 👨‍💻 Author
+
+**Salmanul Faris K**
+Frontend Developer | MERN Stack Developer
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
 
