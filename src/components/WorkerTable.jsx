@@ -4,7 +4,8 @@ import * as XLSX from 'xlsx';
 import { saveAs } from 'file-saver';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
-const apiBase = "https://workerfserver.onrender.com/api";
+const apiBase = "YOUR API ";
+// EXAMPLE: http://localhost:3000
 
 export default function WorkerTable() {
   const [workers, setWorkers] = useState([]);
